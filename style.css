@@ -1,0 +1,96 @@
+.header{
+    background-image: url(../images/pic1.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 720px;
+    width: 100%;
+    opacity: 0.95;
+}
+
+.headerset{
+    padding-top: 250px;
+    box-sizing: border-box;
+}
+
+.headerset h2{
+    font-size: 42px;
+    color:blanchedalmond
+}
+
+.headerset h1{
+    font-size: 62px;
+    color: blanchedalmond;
+}
+
+
+.services{
+    padding: 100px 0 50px;
+    height: 700px;
+}
+
+.services h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.rowsetting{
+    margin: 100px 0 ;
+}
+
+.imgsetting{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+}
+
+.fa-shopping-cart{
+    margin-top: 25px;
+}
+
+.fa-desktop{
+    margin-top: 30px;
+}
+
+.fa-lock{
+    margin-top: 25px;
+}
+
+.rowsetting p{
+    padding: 10px;
+}
+
+.rowsetting h2{
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ourteam{
+    height: 700px;
+    width: 100%;
+    padding: 100px 0 60px;
+}
+
+
+
+@media (max-width:800px){
+    .headerset h2{
+        font-size: 32px;
+        color: honeydew;
+    }
+    
+    .headerset h1{
+        font-size: 52px;
+        color: honeydew;
+    }
+
+    .services{
+        height: 1000px;
+    }
+
+    .ourteam{
+        height: 1100px;
+    }
+
+}
